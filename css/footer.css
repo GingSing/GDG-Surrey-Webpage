@@ -1,0 +1,43 @@
+.footer{
+    background-color: #F7F5F5;
+    height: 190px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto Condensed";
+}
+
+.footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.form-input{
+    outline: none;
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    font-size: 14px;
+}
+
+.form-input::placeholder{
+    font-size: 14px;
+}
+
+.subscribe{
+    margin-top: 50px;
+}
+
+.subscribe-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.subscribe-form>button{
+    width: 100px;
+}

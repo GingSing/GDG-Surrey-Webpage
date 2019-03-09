@@ -2,7 +2,7 @@
 	height: 92px;
 	width: 619px;
 	color: #000000;
-	font-family: Adelle;
+	font-family: "Roboto Condensed";
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 28px;
@@ -16,19 +16,23 @@
 }
 
 .aboutList{
-	display: flex;
-	width: 100%;
-	justify-content: space-between;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 220px); 
+	width: 70%;
+	font-family: "Roboto Condensed";
 }
 
 .aboutItem{
 	list-style: none;
 	padding: 0;
 	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .item-img{
-	background-color: grey;
+	background-color: #F7F5F5;
 	height: 220px;
 	width: 220px;
 	border-radius: 50%;
@@ -36,19 +40,17 @@
 }
 
 .item-label{
-	position: relative;
-	font-family: "Roboto Condensed";	
+	position: relative;	
 	font-size: 72px;	
 	font-weight: bold;
 	padding: 0;
 	margin: 0;
 	padding-top: 160px;
-	padding-left: 60px;
+	padding-right: 40px;
 }
 
 .aboutInfo{
 	width: 220px;
 	font-size: 14px;
 	font-weight: 300;
-	font-family: "Roboto Condensed";	
 }
