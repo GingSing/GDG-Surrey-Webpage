@@ -1,0 +1,16 @@
+body{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.page{
+    height: 100vh;
+    width: 70%;
+}

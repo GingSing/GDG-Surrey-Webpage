@@ -1,0 +1,23 @@
+.upcoming-events {
+	color: #000000;
+	font-family: "Roboto Condensed", sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.events-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.events-list>li{
+    height: 278px;
+    width: 460px;
+    background-color: #F7F5F5;
+}
+
+.events-list>li:nth-child(2){
+    margin-left: 20px;
+}

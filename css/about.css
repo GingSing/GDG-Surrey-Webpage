@@ -1,0 +1,54 @@
+.google-developer-gro {
+	height: 92px;
+	width: 619px;
+	color: #000000;
+	font-family: Adelle;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 28px;
+	text-align: center;
+}
+
+.why-join-us{
+	font-family: "Roboto Condensed";
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.aboutList{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.aboutItem{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.item-img{
+	background-color: grey;
+	height: 220px;
+	width: 220px;
+	border-radius: 50%;
+	position: absolute;
+}
+
+.item-label{
+	position: relative;
+	font-family: "Roboto Condensed";	
+	font-size: 72px;	
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+	padding-top: 160px;
+	padding-left: 60px;
+}
+
+.aboutInfo{
+	width: 220px;
+	font-size: 14px;
+	font-weight: 300;
+	font-family: "Roboto Condensed";	
+}

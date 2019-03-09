@@ -1,0 +1,45 @@
+
+.heroHeader{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-img {
+    padding-top: 10%;
+	height: 165px;
+	width: 938px;
+}
+
+.rectangle-7-2 {
+	height: 56px;
+	width: 220px;
+	border-radius: 30.5px;
+    background-color: #4A90E2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join-our-community-2{
+	height: 21px;
+	width: 187px;
+	color: #FFFFFF;
+	font-family: "Roboto Condensed";
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 21px;
+	text-align: center;
+}
+
+.heroMessage{
+    height: 180px;
+    width: 780px;
+    color: #000000;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 90px;
+    text-align: center;
+}
