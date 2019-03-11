@@ -33,13 +33,20 @@
 	text-align: center;
 }
 
+/**change the font in mobile view**/
 .heroMessage{
     height: 180px;
-    width: 780px;
-    color: #000000;
+    width: 100%;
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 72px;
+    font-size: 4vw;
     font-weight: bold;
-    line-height: 90px;
     text-align: center;
+}
+
+@media only screen and (max-width: 950px) {
+    .heroMessage{
+        margin: 30px;
+        width: 150%;
+        height: auto;
+    }
 }

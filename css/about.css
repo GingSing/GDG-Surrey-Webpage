@@ -1,6 +1,6 @@
 .google-developer-gro {
-	height: 92px;
-	width: 619px;
+	width: 70%;
+	max-width: 619px;
 	color: #000000;
 	font-family: "Roboto Condensed";
 	font-size: 18px;
@@ -16,10 +16,12 @@
 }
 
 .aboutList{
+	position: relative;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 220px); 
 	width: 70%;
 	font-family: "Roboto Condensed";
+	justify-content: space-around;
 }
 
 .aboutItem{

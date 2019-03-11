@@ -18,8 +18,13 @@
                     <div class="home">
                         <img class="gdg-surrey-logo" src="assets/gdg_surrey_logo.png" alt="gdg.png"/>
                         <label class="gdg-surrey"><strong>GDG</strong> Surrey</label>
+                        <button id="mobile-menu">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </button>
                     </div>
-                    <div class="menu">
+                    <div id="menu" class="menu hide">
                         <ul class="links">
                             <a class="events-about-blog-co" href="#events">EVENTS</a>
                             <a class="events-about-blog-co" href="#about">ABOUT</a>
@@ -142,5 +147,15 @@
                 </form>
             </div>
         </div>
+        <script>
+
+            const menu = document.getElementById("menu");
+            const mobile = document.getElementById("mobile-menu");
+
+            mobile.addEventListener('click', (e) => {
+                mobile.classList.toggle('change');
+                menu.classList.toggle('hide');
+            });
+        </script>
     </body>
 </html>
